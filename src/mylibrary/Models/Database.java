@@ -18,7 +18,7 @@ public class Database {
 	try{
             String url="jdbc:mysql://127.0.0.1:3306/librarydb";
             String user="root";
- 	    Connection conn = DriverManager.getConnection(url, user,"Slade2023");
+ 	    Connection conn = DriverManager.getConnection(url, user,"Ilove5ny@");
             instruction = conn.createStatement();
             System.out.println("Connected");
         }
