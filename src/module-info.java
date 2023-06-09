@@ -5,7 +5,7 @@ module Library.Management.System {
     requires java.sql;
     requires java.xml;
     requires javafx.controls;
-    requires gson;
+//    requires gson;
     requires mysql.connector.j;
 
     opens mylibrary.adminPages to javafx.fxml;
